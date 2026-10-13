@@ -1,6 +1,6 @@
 cask "sicode" do
-  version "0.2.2"
-  sha256 "0986b834b0a409768547dd5b26b381deed06785fbc1eeecb984b58c8116e9262"
+  version "0.2.4"
+  sha256 "c3ad0d44610f3bd9700c60a6ef3ff36fc80990aa9a27894f82f5f0d070bceb3d"
 
   url "https://github.com/JonasDPDK/sicode-releases/releases/download/v#{version}/Sicode-#{version}.dmg"
   name "Sicode"
@@ -21,9 +21,11 @@ cask "sicode" do
 
   zap trash: [
     "~/.sicode",
+    "~/Library/Application Support/app.sicode",
     "~/Library/Caches/app.sicode",
     "~/Library/HTTPStorages/app.sicode",
     "~/Library/Preferences/app.sicode.plist",
+    "~/Library/Saved Application State/app.sicode.savedState",
   ]
 
   caveats <<~EOS
