@@ -1,6 +1,6 @@
 cask "sicode" do
-  version "0.3.0"
-  sha256 "73feaa63894d53834cd56056441f43abaa5a3d3129c8f21c2d256b0657b74d4f"
+  version "0.3.1"
+  sha256 "1c75ddd2caf569749f746420208eade5198c7ed81a26af0d6ca42a534c04414b"
 
   url "https://github.com/JonasDPDK/sicode-releases/releases/download/v#{version}/Sicode-#{version}.dmg"
   name "Sicode"
